@@ -1,0 +1,90 @@
+h1{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+form{
+  margin-bottom: 17px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 40%;
+  padding: 10px;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 60px;
+}
+
+select {
+  height: 40px;
+}
+
+button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 60px;
+  background-color: blue;
+}
+
+button:hover {
+  background-color: #8e61c88e;
+}
+
+.excluir {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  transition: ease;
+}
+
+.excluir:hover {
+  background-color: red;
+  opacity: 1;
+}
+
+
+table{
+border-collapse: collapse;
+margin-top: 10px;
+margin-left: 3%;
+width: 90%;
+}
+
+th{
+  background-color: black;
+  color: white;
+  height: 40px;
+  text-align: left;  
+}
+
+tr{
+  background-color: rgb(232, 230, 230);
+}
+
+tr:nth-child(odd){
+  background-color: white;
+}
+
+td{
+  padding: 15px;
+}
+
